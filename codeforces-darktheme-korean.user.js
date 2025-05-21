@@ -1,12 +1,10 @@
 // ==UserScript==
-// @name         Codeforces dark theme
-// @version      1.1.1
-// @description  dark theme for codeforces
-// @author       Gaurang Tandon
+// @name         Codeforces Korean Dark Theme
+// @version      1.0.0
+// @description  Korean UI + dark theme for Codeforces
+// @author       groun519
 // @match        https://codeforces.com/*
 // @match        http://codeforces.com/*
-// @match        https://calendar.google.com/calendar/embed*
-// @match        https://www.facebook.com/v2.8/plugins/like.php*
 // @resource     desertCSS  desert.css
 // @resource     monokaiEditorTheme https://raw.githubusercontent.com/ajaxorg/ace/62e8e9e4d3b21552dd83d454b7fd55d4981d096a/lib/ace/theme/monokai.css
 // @resource     darkthemecss darktheme.css
@@ -14,6 +12,7 @@
 // @grant        GM_getResourceText
 // @run-at       document-start
 // ==/UserScript==
+
 
 (function () {
 	"use strict";
