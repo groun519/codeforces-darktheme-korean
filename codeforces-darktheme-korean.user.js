@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Codeforces Korean Dark Theme
-// @version      1.0.0
+// @version      1.0.1
 // @description  Korean UI + dark theme for Codeforces
 // @author       groun519
 // @match        https://codeforces.com/*
@@ -226,4 +226,52 @@ div.logo-plus-button {
 			observer.observe(document.body, { subtree: true, attributeFilter: ['style'] });
 		});
 	})();
+})();
+
+(function translateUI() {
+const dictionary = {
+  "Home": "홈",
+  "Catalog": "목록",
+  "Contests": "대회",
+  "Gym": "외부 대회",
+  "Problemset": "문제집",
+  "Groups": "그룹",
+  "Rating": "레이팅",
+  "Edu": "강의",
+  "Calendar": "일정",
+  "Help": "도움말",
+
+
+
+  "Submit": "제출",
+
+  "Pay attention": "집중!",
+  "Standings": "랭킹 목록",
+  "Register now": "지금 가입하기",
+  "Find user": "사용자 검색",
+  "Top rated": "상위 랭커",
+  "Top contributors": "상위 기여자",
+  "Recent actions": "최근 활동",
+
+
+
+  "Streams": "스트리밍",
+  "Enter": "로그인",
+  "Register": "회원가입",
+  "Top": "인기글",
+
+};
+  const translateText = (text) =>
+    Object.keys(dictionary).reduce((acc, key) =>
+      acc.replace(new RegExp(`\\b${key}\\b`, "g"), dictionary[key]), text);
+
+  const applyTranslation = () => {
+    const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT);
+    while (walker.nextNode()) {
+      const node = walker.currentNode;
+      node.nodeValue = translateText(node.nodeValue);
+    }
+  };
+
+  document.addEventListener("DOMContentLoaded", applyTranslation);
 })();
