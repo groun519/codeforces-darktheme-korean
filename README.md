@@ -40,7 +40,7 @@ Tampermonkey는 기본적으로 24시간마다 새로운 업데이트를 자동�
     | Pupil                                        | ![green](https://user-images.githubusercontent.com/62207434/181260440-9b43353d-07ad-4c5c-bde7-1703bb413ac3.png) green (`#00d700`) | ![#00c700](https://user-images.githubusercontent.com/62207434/181260653-430462ca-ff29-48a4-ae08-d5ccbda4d648.png) `#00c700` |
     | Newbie                                       | ![gray](https://user-images.githubusercontent.com/62207434/181260480-d0c737a4-7367-454a-9dd2-3ebea0019265.png) gray                | ![#8c8c8c](https://user-images.githubusercontent.com/62207434/181260660-440aab86-daaa-495f-97be-72ab4463f114.png) `#8c8c8c` |
 
-    모든 색상 변화를 한 번에 보려면 블로그 게시물 ["색상과 제목의 두 번째 혁명"](https://codeforces.com/blog/entry/20638)에 있는 표를 참고하세요.
+    모든 색상 변화를 한 번에 보려면 블로그 게시물 ["The Second Revolution of Colors and Titles"](https://codeforces.com/blog/entry/20638)에 있는 표를 참고하세요.
 
 ## 외부 종속성
 
