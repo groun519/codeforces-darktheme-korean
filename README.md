@@ -12,7 +12,7 @@
 ## 설치 방법
 
 1. 브라우저에 Tampermonkey를 설치하세요. ([설치 안내](https://tampermonkey.net/))
-2. [**이 링크를 클릭**](https://raw.githubusercontent.com/groun519/codeforces-darktheme-korean/main/codeforces-korean-darktheme.user.js)하여 Codeforces 다크 테마 사용자 스크립트를 설치하세요.
+2. [**이 링크를 클릭**](https://raw.githubusercontent.com/groun519/codeforces-darktheme-korean/main/codeforces-darktheme-korean.user.js)하여 Codeforces 다크 테마 사용자 스크립트를 설치하세요.
 
 스크립트가 나중에 업데이트되더라도 페이지를 다시 방문할 필요는 없습니다.  
 Tampermonkey는 기본적으로 24시간마다 새로운 업데이트를 자동으로 가져옵니다.
